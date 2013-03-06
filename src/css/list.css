@@ -1,0 +1,95 @@
+
+/*********************************************************
+LISTENANSICHT
+**********************************************************/
+
+/* Listen-Filter, Pager-Leiste */
+.listRefine {font-size: 0.9em; float:left; clear: both; width: 100%; margin-bottom: 15px;}
+#itemsPager {float: right; padding: 0; margin: 0; line-height: 14px;}
+#itemsPager .page { font-size: 110%; }
+#itemsPagerbottom {font-size: 0.9em;}
+.listFilter,
+.refineParams { border-top: 1px dotted #ccc; padding: 6px 0;float:left; clear: both; width: 100%; }
+.listFilter {background: #f6f6f6;padding: 7px 0;}
+.refineParams.bottomParams {border-top:none;}
+.listFilter .dropDown,
+.refineParams .dropDown { margin: 0 25px 0 0; padding-right: 5px;}
+.refineParams p {margin: 0;}
+.refineParams label,
+#filterList label {margin: 0 5px 0 0; padding: 0;}
+li.asc a, li.desc a {background:transparent url(%%/../../img/arrow-updown.png) no-repeat 92% 7px; padding-right: 20px;}
+li.desc a {background-position: 92% -35px;}
+
+/* Kategoriebild/Beschreibungstexte */
+.categoryDescription { background: #f2f4f5; padding: 10px 10px 10px 10px; font-size: 11px; border-bottom: 1px solid #B4B8B8; }
+.categoryTopDescription,
+.categoryTopLongDescription { font-size: 14px; line-height: 18px; margin-bottom: 20px; }
+.categoryTopLongDescription p { margin-bottom: 10px; }
+.categoryPicture { margin-bottom: 20px; }
+#content .subcatList,
+#content .subcatList ul {margin: 0;}
+#content .subcatList li {list-style: none; float: left; margin: 0 18px 18px 0; padding: 0; width: 170px; border: 2px solid #eee;}
+#content .subcatList li.catRowLast {margin-right: 0;}
+#content .subcatList li .teasertitle {display: block; padding: 5px; text-decoration: none; font-weight: bold; background: #f7f7f7;}
+#content .subcatList li .teaserpic {line-height: 1px;margin: 1px; display:block; text-align: center;}
+#content .subcatList ul {padding: 5px;}
+#content .subcatList li li {float: none; margin:0; border: none;}
+
+
+/* Produktliste */
+/* allgemein */
+ul#productList /* Listen */,
+ul#newItems /* Startseite */,
+ul#searchList /* Suchergebnis */,
+ul#alsoBoughtThankyou /* Checkout Step 5: Also bought ...*/ { width: 100%; float: left; clear: both; list-style: none; }
+li.productData { float: left;border: 2px solid #eee; margin: 0 5px 5px 0;}
+li.productRowLast {margin-right: 0 !important;}
+.listDetails .titleBox {height: 40px; line-height: 1.3em;}
+.listDetails .titleBox a {font-weight: bold; color:#389CB4; text-decoration: none;}
+.listDetails .titleBox a:hover {text-decoration: underline;}
+li.productData .pictureBox a {display:block;text-align: center;line-height: 0;}
+.listDetails .shortDescription { margin: 0 0 8px; height: 32px; line-height: 1.2em; overflow: hidden; }
+.listDetails .priceBox {height: 40px;}
+.listDetails .price {font-size: 1.1em;}
+.listDetails .oldPrice {font-size: 75%;}
+
+
+/* Galerie zweispaltig */
+ul.infogridView li.productData { width: 368px; height: 192px; }
+ul.infogridView li.productData .pictureBox {float:left; width: 185px; height: 150px; overflow: hidden;margin: 1px; }
+ul.infogridView li.productData .listDetails {float:right; width:160px; margin: 10px; }
+ul.infogridView li.productData .listDetails .selectorsBox { height: 25px;width: 150px;}
+/* Galerie vierspaltig */
+ul.gridView li.productData {width: 179px; height: 300px;}
+ul.gridView li.productData .pictureBox {width: 177px; height: 150px; overflow: hidden; margin:1px 1px 7px 1px;}
+ul.gridView li.productData .pictureBox a {display: block;width: 177px; text-align: center;}
+ul.gridView li.productData .listDetails {padding: 0 10px;}
+ul.gridView li.productData .listDetails .titleBox {line-height: 1.2em;}
+ul.gridView li.productData .listDetails .selectorsBox { height: 25px;width: 150px;}
+/* Liste einspaltig */
+ul.lineView li.productData {width:746px;}
+ul.lineView li.productData .pictureBox {float:left; width: 185px; height: 150px; overflow: hidden;margin:1px;}
+ul.lineView li.productData .listDetails {float:right; width:530px;padding: 10px;}
+ul.lineView li.productData .listDetails .titleBox {height: 25px;}
+ul.lineView li.productData .listDetails .titleBox a {font-size: 1.2em;}
+ul.lineView li.productData .listDetails .selectorsBox { height: 25px;width: 250px;}
+ul.lineView li.productData .listDetails .priceBox {height: 50px;}
+ul.lineView li.productData .listDetails .price {font-size: 1.4em;}
+ul.lineView li.productData .listDetails .compare {margin-bottom: 6px;}
+ul.lineView li.last {}
+
+/* MD Variant Selects for line */
+.infoBox .selectorsBox { background: none; padding: 10px 10px 0px 0px; }
+.infoBox .selectorsBox .dropDown { margin-bottom: 10px; min-width: 200px; }
+.infoBox .selectorsBox .dropDown li.disabled a { }
+.infoBox .selectorsBox p.underlined {}
+.infoBox .selectorLabel label { min-width: 50px; display: inline-block; }
+
+/* Kategorieliste */
+.subcatList,
+.subcatList ul { margin: 0; }
+.subcatList li{ padding: 0; list-style: none; }
+.subcatList .box { float: left; margin-left: 20px; }
+.subcatList li .box:first-child { margin-left: 0; }
+.subcatList h3 a { color: #fff; font-size: 14px; }
+.subcatList .box li { text-transform: uppercase; padding: 3px 0; }

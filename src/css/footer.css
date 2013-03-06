@@ -1,0 +1,17 @@
+
+/*********************************************************
+FOOTER
+**********************************************************/
+#footer #panel {float:left; clear:both; width:100%; margin-bottom: 30px;}
+#footer .bar { float: left; clear: both; width: 100%; margin: 0 0 20px 0; }
+#footer .newsletter, #footer .facebook {float:left; margin-right: 10px; width:auto;}
+#footer .deliveryinfo {float:right; width:30%; text-align: right; font-size: 0.9em;}
+#footer dl { width: 25%; float: right; margin: 0; }
+#footer dt { font-weight: bold; }
+#footer dd { margin:0; }
+#footer dl li { list-style: none; }
+#footer dl li a { text-decoration: none; padding: 4px 0; display: block; }
+#footer .text {clear: both; text-align: center; color: #666;}
+
+#incVatMessage { position:fixed; bottom:-3px; right:-5px; font-size:11px; padding:4px 20px 6px 17px; background:url(%%/../../img/vatmsg-bg.png) no-repeat 0 0; opacity:0.6;filter:alpha(opacity=60); z-index:9999; }
+

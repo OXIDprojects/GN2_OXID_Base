@@ -1,0 +1,12 @@
+/*********************************************************
+METASEITEN
+Registrierung, Anmeldung, Passwort vergessen, Kontakt, News, Tags
+**********************************************************/
+
+/* PASSWORT VERGESSEN */
+form.forgotPassword {margin: 10px 0 10px 0;}
+form.forgotPassword .submitButton {width: 170px;}
+
+/* KONTAKT */
+.verify img {float: left; margin:4px 8px 0 0;}
+form.contactForm .submitButton {width:170px;}

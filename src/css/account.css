@@ -1,0 +1,96 @@
+/*********************************************************
+ACCOUNT
+**********************************************************/
+
+/* Account Dashboard */
+.accountDashboardView .col {margin-bottom: 15px; width:45%; padding: 1% 1.5%; background: #eee; min-height: 150px;}
+.accountDashboardView dl {margin:0;}
+.accountDashboardView dd,
+.accountDashboardView dt {float:left; margin: 0; padding: 6px 0;text-align: right; }
+.accountDashboardView dt {width: 48%;padding-right: 2%; font-weight: bold;}
+.accountDashboardView dd {width: 50%;}
+p.dashboardLogout {clear: both;}
+#forgotPasswordLink {margin-left: 156px; }
+.column.left, .column.right {width:45%; padding-bottom: 60px; position:relative;}
+
+.accountRegisterAdvantages {}
+.accountRegisterAdvantages ul {margin: 0 0 10px 20px; }
+.accountRegisterAdvantages li {list-style: disc outside none; margin: 0 0 4px;}
+.accountRegisterAdvantages .submitButton { position:absolute; bottom: 20px; left: 20px;}
+.accountLoginView button#loginButton {position:absolute; bottom: 20px;}
+
+/* Account Order List */
+.orderList { margin: 0; padding: 0; float: left;}
+.orderList li { padding: 15px 0 0 0; list-style: none; }
+.orderList li:first-child { border: 0; padding-top: 0; }
+.orderList h3 {  }
+.orderList dl{ width: 300px; }
+.orderList dd { padding: 3px 0; }
+.orderList dt { border-bottom: 1px solid #ddd; padding-bottom: 3px; display: block; font-weight: 400; margin-bottom: 7px;}
+.orderList dt strong { display: block; }
+.orderList dt span { font-size: 0.9em; color: #999; }
+.orderList dt label { color: #666; }
+.orderList table {margin-bottom: 0; }
+.orderList td { vertical-align: top; width: 50%; }
+.orderList td table { text-align: left; }
+.orderList td table th {}
+.orderList .orderitems, .orderList .orderhistory { width: 100%; }
+.orderList .orderitems td { vertical-align: top; }
+.orderhistory td { padding: 5px 0; vertical-align: top; width:99%; }
+.orderhistory td.small { width:1%; }
+.orderhistory td .amount {}
+
+
+/* Compare List */
+#compareList { width: 100%; }
+#compareList td { border-collapse: collapse; vertical-align:top; }
+#compareList table{ width:200px; border-collapse:collapse; }
+#compareList table td { border-top: 5px solid #ECEFF0; padding: 5px; }
+#compareList table #firstTr td,
+#compareList table #firstDataTr td { border: 0; }
+#compareList table tr:last-child td { padding-bottom: 20px; }
+
+#compareDataDiv { overflow:hidden; }
+#compareFirstCol { overflow: hidden; }
+
+.compareItem { width: 190px; height: 380px; position: relative; }
+.compareWide { width:740px; position:relative;}
+.compareWide .compareItem { width: 238px; }
+.compareItem .tobasket { position: absolute; bottom: 10px; }
+.compareItem .oldPrice { font-size: 11px; line-height: 14px; }
+.compareItem .variants{ padding-top:15px; }
+.compareItem .variants select { margin:5px 0 10px 0; display: block; }
+.compareItem .picture { text-align: center; display:block; width:190px; height:150px; overflow:hidden; margin-bottom:7px; }
+.compareItem .title { display: block; font-size: 18px; line-height:18px; font-weight: 400; padding-bottom: 3px; }
+.compareItem .identifier { color: #515353; display: block; }
+.compareItem .fn { padding-top: 5px; margin: 0; clear: both; }
+
+#compareList .lineBox { padding: 5px 10px; font-size: 11px; text-transform: uppercase; text-align: center; line-height: 16px; }
+#compareList a.navigation { background: url(%%/../../img/prevnext.png) no-repeat 0 0; height: 7px; width: 4px; text-indent: -9999px; margin-top: 4px; }
+#compareList .lineBox a.movePrev { float: left;  background-position: 0 -7px; }
+#compareList .lineBox a.moveNext { float: right; }
+
+/* WishList */
+.wishlistView .column { }
+#content .wishlistSearch ul.form label,
+#content .wishlistPublish ul.form label,
+#content .wishlistSuggest ul.form label {width:auto; padding-right: 0;}
+#content .wishlistPublish ul.form li.formSubmit,
+#content .wishlistSearch ul.form li.formSubmit,
+#content .wishlistSuggest ul.form li.formSubmit {}
+#content .wishlistSuggest ul.form textarea {}
+.wishlistView a {}
+.wishlistView, .listmaniaView {  }
+.formTitle, .wishlistResults dt{  }
+.wishlistSuggest {}
+.wishlistResults{  }
+.wishlistResults dt {}
+.wishlistUser { }
+
+/* Account billing / shipping addreses */
+.addressCollumns { }
+.addressCollumns .collumn { float: left; width: 50%; }
+
+/* Geburtsdatum */
+input#oxDay {margin-right: 6px;}
+select.oxMonth {min-width: 96px; height:27px;}

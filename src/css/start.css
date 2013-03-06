@@ -1,0 +1,62 @@
+/*********************************************************
+STARTSEITE
+**********************************************************/
+
+/* Promotions Slider */
+.oxSlider { width: 750px; height: 220px; padding: 0; overflow: hidden; clear:both; position: relative; margin-bottom: 30px; }
+.promotionSlider { width: 748px; height: 220px; z-index: 90; position: relative; }
+.promotionNav { position: absolute; left: 50%; bottom: 10px; z-index: 99; }
+.promotionNext { position: absolute; top: 50%; right: 10px; z-index: 99; }
+.promotionPrev { position: absolute; top: 50%; left: 10px; z-index: 99; }
+
+/* Promo Boxes */
+.promoBoxes { width: 100%; float: left; clear: both; margin: 0 0 30px 0; }
+.promoBoxes #specBox, .promoBoxes #specCatBox { float: right; position: relative; width: 366px; overflow: hidden; border:2px solid #eee; }
+.promoBoxes #specBox { float: left;}
+.promoBoxes #specCatBox {height: 152px; width: 370px;}
+.promoBoxes h3.sectionHead {padding: 10px 10px 0 10px; background: #fff;
+/* Verlauf */
+background: -moz-linear-gradient(top, #f3f3f3 0%, #ffffff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(100%,#ffffff));
+background: -webkit-linear-gradient(top, #f3f3f3 0%,#ffffff 100%);
+background: -o-linear-gradient(top, #f3f3f3 0%,#ffffff 100%);
+background: -ms-linear-gradient(top, #f3f3f3 0%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 );
+background: linear-gradient(top, #f3f3f3 0%,#ffffff 100%); }
+.promoBoxes #specCatBox h3.sectionHead {border:none; width: 350px; height: 34px; margin:0;}
+.promoBoxes #specCatBox a, .promoBoxes #specBox a.picture {display: block; line-height: 0;}
+.promoBoxes #specCatBox a.viewAllHover {width: 368px; overflow: hidden; margin:1px;}
+.promoBoxes #specBox .specBoxInfo, .promoBoxes #specBox .specBoxTitles {float:left; width: 187px;}
+.promoBoxes #specBox h3.sectionHead {width: 159px; }
+.promoBoxes #specBox .specBoxTitles {float:left; width: 179px;}
+.promoBoxes #specBox .specBoxTitles .title {padding: 0 10px;}
+.promoBoxes #specBox .specBoxInfo {float:right;}
+.promoBoxes #specBox img.picture {margin: 1px;}
+.promoBoxes #specBox .price_tocart {position: absolute; left:0; bottom: 0; width: 159px; padding: 10px;}
+
+/* ItemSlider */
+.itemSlider { width:750px; margin: 0 0 30px 0; position: relative; float: left; clear: both; }
+#manufacturerSlider { width: 746px !important; border: 2px solid #eee;}
+.itemSlider ul { height: 150px; }
+#content .itemSlider li { width: 124px; height: 150px; line-height: 148px; padding: 0; text-align: center; list-style: none; margin:0; position: relative; }
+.itemSlider li a span { font-size: 0.9em; line-height: 1.1em;display: block; position: absolute; bottom: 0; left: 0; width: 100px; color: #000; z-index: 25; padding: 10px; background: #fff; opacity: 0.8;}
+.itemSlider a.sliderHover,
+a.sliderHover,
+.itemSlider li a.viewAllHover { width: 124px; height: 150px; display: none; position: absolute; left: 0px; top: 0px; z-index: 10;}
+.itemSlider li a.viewAllHover {border: 2px solid #ccc; width: 120px; height: 146px;}
+.itemSlider li:hover a.viewAllHover,
+.itemSlider li:hover a.sliderHover { display: block; }
+.itemSlider li img { vertical-align: middle; }
+.itemSlider .slideNav { text-decoration: none; position: absolute; z-index: 10; height: 150px; display: block; background: #F3F3F3;}
+.itemSlider .titleBlock h3 { }
+.itemSlider span.slideBg { display: block; height:100%; width:100%; top: 0; position: absolute; }
+.itemSlider .prevItem span.slideBg { border-right: 1px solid #ccc; }
+.itemSlider .nextItem span.slideBg { border-left: 1px solid #ccc; }
+.itemSlider .prevItem,
+.itemSlider .nextItem { bottom:2px; width:40px; }
+.itemSlider .prevItem { left:2px; }
+.itemSlider .nextItem { right: 2px;}
+.itemSlider .prevItem span.slidePointer,
+.itemSlider .nextItem span.slidePointer { position:relative; z-index: 5; float: right; text-indent: -9999px; width: 13px; height: 25px; margin: 65px 15px 0 0; background:transparent url(%%/../../img/promo-arrows.png) no-repeat 0 0; }
+.itemSlider .nextItem span.slidePointer {background-position: -40px 0; margin: 65px 0 0 15px; float: left;}
+
